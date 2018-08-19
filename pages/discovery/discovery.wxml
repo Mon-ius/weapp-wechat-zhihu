@@ -16,7 +16,7 @@
       </block>
     </swiper>
 
-    <block wx:for="{{feed}}" wx:for-index="idx" wx:for-item="item" data-idx="{{idx}}">
+    <!-- <block wx:for="{{feed}}" wx:for-index="idx" wx:for-item="item" data-idx="{{idx}}">
       <view class="feed-item">
         <view class="feed-source">
           <a class="">
@@ -50,15 +50,15 @@
           </view>
         </view>
       </view>
-    </block>
+    </block> -->
   </view>
   <view class="ctnt1 placehold" hidden="{{currentNavtab==1 ? '' : true}}">
-    <text>圆桌</text>
+    <text>报名学习</text>
   </view>
   <view class="ctnt2 placehold" hidden="{{currentNavtab==2 ? '' : true}}">
-    <text>热门</text>
+    <text>成为老师</text>
   </view>
   <view class="ctnt3 placehold" hidden="{{currentNavtab==3 ? '' : true}}">
-    <text>收藏</text>
+    <text>更多</text>
   </view>
 </scroll-view>

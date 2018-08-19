@@ -29,8 +29,8 @@
 .top-tab{
   width: 750rpx;
   height: 100rpx;
-  background: #298DE5;
-  color: #8CCEFD;
+  background: #F329BC;
+  color: #F329BC;
   font-size: 28rpx;
   line-height: 100rpx;
   box-shadow: 0 2px 2px #bebebe;

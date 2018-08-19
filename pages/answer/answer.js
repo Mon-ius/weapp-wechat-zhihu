@@ -4,7 +4,7 @@ var util = require('../../utils/util.js')
 var app = getApp()
 Page({
   data: {
-    motto: '知乎--微信小程序版',
+    motto: '米语花--微信小程序',
     userInfo: {}
   },
   //事件处理函数
